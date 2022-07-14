@@ -1,0 +1,19 @@
+/* Minha paleta de cor
+rgb(229, 212, 237) rosa leve
+rgb(234, 180, 100) amarelo
+rgb(89, 65, 169) roxo
+rgb(108, 90, 73) marrom
+rgb(11, 122, 117) azul/verde
+*/
+body{
+    background-color: rgb(255, 255, 255)
+}
+h1{
+    color:rgb(11, 122, 117);
+}
+p{
+    color: rgb(89,65,169); margin: 20px;
+}
+#nome{
+    color: rgb(11, 122, 117); font-size: 120%;
+}
