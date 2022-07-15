@@ -1,19 +1,22 @@
 /* Minha paleta de cor
-rgb(229, 212, 237) rosa leve
-rgb(234, 180, 100) amarelo
-rgb(89, 65, 169) roxo
-rgb(108, 90, 73) marrom
-rgb(11, 122, 117) azul/verde
+rgb(255, 255, 255) branco
+rgb(181, 181, 181) cinza
+rgb(0, 0, 0) preto
+rgb(93, 26, 38) vinho
+rgb(98, 110, 62) verde
 */
 body{
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(143,143,143);
 }
 h1{
-    color:rgb(11, 122, 117);
+    color:rgb(98, 110, 62); 
 }
 p{
-    color: rgb(89,65,169); margin: 20px;
+    color: rgb(0, 0, 0); margin: 20px;
 }
 #nome{
-    color: rgb(11, 122, 117); font-size: 120%;
+    color: rgb(255, 255, 255); font-size: 120%;
+}
+img{
+    border-radius: 100%; filter: grayscale(100%) ;
 }
