@@ -19,6 +19,7 @@ body{
     height: 50px;
     width: 100%;
     position:fixed;
+    z-index: 5;
 }
 
 h1{
@@ -30,22 +31,36 @@ p{
     margin: 20px;
 }
 #primeiro-paragrafo{
-    position: relative;
-    top: 80px;
+    position: static;
+    display: inline-block;
     width: 50%;
+}
+#primeiro-paragrafo p{
+    font-size: 120%;
+    
 }
 #nome{
     color: rgb(255, 255, 255);
     font-size: 120%;
 }
-img{
-    border-radius: 100%; 
-    filter: grayscale(100%); 
-    margin:auto; 
+#img{
     position: relative; 
-    left: 50%; ;
+    display: inline;
+    /* margin: auto; */
+}
+img{
+    border-radius: 10%; 
+    filter: grayscale(100%); 
+    background-color: white;
+    padding: 10px;;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(93,26,38);
+    padding-top: 10px;
 }
 ul{
     margin-left: 30px;
-    
+    background-color: rgb(93,26,38);
 }
