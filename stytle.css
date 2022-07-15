@@ -12,29 +12,38 @@ color: rgb(181, 181, 181);
 }
 body{
     background-color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 #header{
     background-color: rgb(93,26,38);
     height: 50px;
     width: 100%;
     position:fixed;
-    ;
 }
 
 h1{
-    color:rgb(98, 110, 62);text-align: center;
+    color:rgb(98, 110, 62);
+    text-align: center;
 }
 p{
-    color: rgb(181, 181, 181); margin: 20px;
+    color: rgb(181, 181, 181);
+    margin: 20px;
 }
 #primeiro-paragrafo{
-    position: relative; top: 80px; width: 50%;
+    position: relative;
+    top: 80px;
+    width: 50%;
 }
 #nome{
-    color: rgb(255, 255, 255); font-size: 120%;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
 }
 img{
-    border-radius: 100%; filter: grayscale(100%); margin-left: 20px; position: relative; left: 50%;
+    border-radius: 100%; 
+    filter: grayscale(100%); 
+    margin:auto; 
+    position: relative; 
+    left: 50%; ;
 }
 ul{
     margin-left: 30px;
